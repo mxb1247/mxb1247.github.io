@@ -1,0 +1,170 @@
+@import
+"@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Questrial|Yanone+Kaffeesatz')";
+
+body{
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+header{
+  font-family: "Great Vibes", cursive;
+}
+
+h2{
+  font-family: "Questrial", sans-serif;
+}
+
+body {
+  font: 16px/1.5 serif;
+}
+
+header {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(103, 136, 188);
+  padding-top: 0;
+  border: 0;
+}
+
+#wrapper {
+  width:960px;
+  margin: 0 auto;
+}
+
+main{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  grid-template-rows: 300px;
+  grid-row-gap: 10px;
+  grid-template-areas: "contact education"
+                       "skillsactivities about"
+                       "experince recomendation"
+}
+
+h4{
+  color: rgb(36, 58, 102);
+}
+
+#contact h2{
+  font-size: 25px;
+  text-align: center;
+}
+
+#contact{
+  color: rgb(36, 58, 102);
+  margin:0px;
+}
+
+ a:link {
+  color:black;
+}
+
+ a:visited {
+  color:blue;
+}
+
+a:hover {
+  color:green;
+}
+
+a:active {
+  color:green;
+}
+
+#education{
+  color: rgb(36, 58, 102);
+  margin:0px;
+}
+
+#education h2{
+  font-size: 25px;
+  text-align: center;
+}
+
+#skillsactivities h2{
+  font-size: 25px;
+  text-align: center;
+}
+
+#skillsactivities{
+  color: rgb(36, 58, 102);
+  padding: 10px 10px 10px 10px;
+  margin-top: 0;
+}
+
+#skillsactivities ul{
+  list-style: square;
+}
+
+#about h2{
+  font-size: 25px;
+  text-align: center;
+}
+
+#about{
+  color: rgb(36, 58, 102);
+  padding: 10px 10px 10px 10px;
+  margin-top: 0;
+}
+
+#about ul{
+  list-style: square;
+  margin-top: 0;
+}
+
+#experince{
+  margin-bottom: 200px;
+}
+
+#experince h2{
+  color: rgb(36, 58, 102);
+  font-size: 25px;
+  text-align: center;
+}
+
+#experince p{
+  grid-template-columns: repeat(2,2fr);
+  grid-template-rows: 300px;
+  grid-row-gap: 10px;
+}
+
+div #london p{
+  margin:0px;
+}
+
+div #nape p{
+  margin:0px;
+}
+
+div #hssa p{
+  margin:0px;
+}
+
+div #beam p{
+  margin:0px;
+}
+
+div #bollare p{
+  margin:0px;
+}
+
+div #town p{
+  margin:0px;
+}
+
+div #business p{
+  margin:0px;
+}
+
+div #human p{
+  margin:0px;
+}
+
+#recomendation{
+  color: rgb(36, 58, 102);
+  font-size: 25px;
+  text-align: center;
+}
+
+#recomendation p{
+  margin:0px;
+}
