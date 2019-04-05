@@ -127,10 +127,6 @@ a:active {
   grid-row-gap: 10px;
 }
 
-div #london p{
-  margin:0px;
-}
-
 div #nape p{
   margin:0px;
 }
@@ -167,4 +163,9 @@ div #human p{
 
 #recomendation p{
   margin:0px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
 }
