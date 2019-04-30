@@ -1,24 +1,28 @@
-@import
-"@import url("https://fonts.googleapis.com/css?family=Cairo|Great+Vibes|IM+Fell+Great+Primer+SC")";
+@import url("https://fonts.googleapis.com/css?family=Cairo|Great+Vibes|IM+Fell+Great+Primer+SC|Courgette");
 
 header{
   font-family: "Great Vibes", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  padding-top: 0;
+  border: 0;
 }
 
 nav{
-  font-family: 'IM Fell Great Primer SC', serif;
+  font-size: 16px;
+  font-family: "IM Fell Great Primer SC", serif;
 }
 
-h1{
-  font-family: "Great Vibes", cursive;
-}
-
-body{
-  font-family: "Cairo", sans-serif;
+h2{
+  font-size: 25px;
+  font-family: "Courgette", cursive;
+  color: rgb(103, 136, 188);
 }
 
 body {
-  font: 16px/1.5 serif;
+  font-size: 16px;
+  font-family: "cairo", sans-serif;
 }
 
 #wrapper {
@@ -26,16 +30,8 @@ body {
   margin: 0 auto;
 }
 
-header {
-  font-size: 30px;
-  text-align: center;
-  color: rgb(103, 136, 188);
-  padding-top: 0;
-  border: 0;
-}
-
 a:link {
- color:green;
+ color:blue;
 }
 
 a:visited {
@@ -43,27 +39,37 @@ a:visited {
 }
 
 a:hover {
- color:black;
+ color:grey;
 }
 
 a:active {
- color:pink;
+ color:black;
 }
 
-nav ul{
-  overflow: hidden;
-  background-color: rgb(252, 249, 151);
-  text-align: center;
-}
-
- nav li{
-  float:inherit;
-  display: block;
-  padding: 14px, 16px;
+nav ul {
   list-style-type: none;
-  font-weight: bold;
-  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(239, 236, 142);
 }
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: white;
+}
+
 
 main{
   display: grid;
@@ -76,134 +82,202 @@ main{
 }
 
 footer{
-  background-color: none;
+  background-color:rgb(232,232,232);
   text-align: center;
   padding: 5px;
-}
-
-footer li{
-  list-style-type: none;
-  font-weight: bold;
+  font-style:italic;
 }
 
 #paris{
-  padding-right: 50px;
-  padding-left: 50px;
-
+  padding-right: 10px;
 }
 
 #london{
   padding-top:300px;
-  padding-left: 50px;
+  padding-bottom: 250px;
 }
 
 #croatia{
   padding-top: 300px;
+  padding-left: 80px;
+  padding-bottom: 250px;
 }
 
 #scotland{
-  padding-top: 0px;
+  padding-left: 80px;
 }
 
 #essentials{
   background-color: rgb(239, 236, 143);
-  text-align: center;
-  padding: 10px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+#essentials ul{
+  list-style-type: square;
 }
 
 #adventuers{
   background-color: rgb(239, 236, 143);
-  text-align:center;
+  text-align:left;
   padding: 10px;
+  padding-left: 20px;
+}
+
+#adventuers ul{
+  list-style-type: square;
 }
 
 
 #camdenphoto{
   padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 80px;
 }
 
 #londoneyephoto{
-  padding-top: 40px;
-  padding-left: 50px;
+  padding-top: 35px;
+  padding-left: 80px;
 }
 
 #stonehengephoto{
-  padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 80px;
+  padding-bottom: 10px;
 }
 
 #theatrephoto{
   padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 80px;
+  padding-bottom: 20px;
 }
 
 #marcellephoto{
-  padding-top: 10px;
-  padding-left: 50px;
+  padding-top: 30px;
+  padding-left: 80px;
 }
 
 #louvrephoto{
-  padding-top: 40px;
-  padding-left: 50px;
+  padding-top: 70px;
+  padding-left: 80px;
 }
 
 #disneyphoto{
-  padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 80px;
+  padding-bottom: 20px;
 }
 
 #monalisaphoto{
-  padding-left: 50px;
+  padding-left: 80px;
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 #castlephoto{
   padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 80px;
 }
 
 #scotlandfoodphoto{
-  padding-top: 40px;
-  padding-left: 50px;
+  padding-top: 30px;
+  padding-left: 80px;
 }
 
 #scotlandstreetphoto{
   padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 80px;
 }
 
-#edinburghview{
-  padding-left: 50px;
+#edinburghviewphoto{
+  padding-left: 80px;
+  padding-top: 10px;
 }
 
 #greenhillsphoto{
   padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 80px;
 }
 
 #borderofcrotiaphoto{
-  padding-left: 50px;
+  padding-left: 80px;
+  padding-top: 5px;
 }
 
 #churchphoto{
-  padding-left: 50px;
+  padding-left: 80px;
 }
 
 #rocksphoto{
-  padding-left: 50px;
+  padding-left: 80px;
+  padding-bottom: 10px;
 }
 
-/*hover effect*/
+#paris{
+        border: 1px solid none;
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        background: url("img/flynn.jpg") no-repeat;
+        margin-right: 1em;
+        transform: scale(1);
+        position: relative;
+        transition: all 1s ease-in;
+      }
 
-.a {
-  height: 300px;
-  overflow: hidden;
+#paris:hover {
+        transform: scale(1.1);
+        z-index: 10;
+        transition: all 1s ease-in;
 }
 
-a img {
-  transition: transform .5s ease;
+#scotland{
+        border: 1px solid none;
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        background: url("img/flynn.jpg") no-repeat;
+        margin-right: 1em;
+        transform: scale(1);
+        position: relative;
+        transition: all 1s ease-in;
+      }
+
+#scotland:hover {
+        transform: scale(1.1);
+        z-index: 10;
+        transition: all 1s ease-in;
 }
 
-.img-hover-zoom:hover img {
-  transform: scale(1.5);
+#croatia{
+        border: 1px solid none;
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        background: url("img/flynn.jpg") no-repeat;
+        margin-right: 1em;
+        transform: scale(1);
+        position: relative;
+        transition: all 1s ease-in;
+      }
+
+#croatia:hover {
+        transform: scale(1.1);
+        z-index: 10;
+        transition: all 1s ease-in;
+}
+
+#london{
+        border: 1px solid none;
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        background: url("img/flynn.jpg") no-repeat;
+        margin-right: 1em;
+        transform: scale(1);
+        position: relative;
+        transition: all 1s ease-in;
+      }
+
+#london:hover {
+        transform: scale(1.1);
+        z-index: 10;
+        transition: all 1s ease-in;
 }
