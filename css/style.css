@@ -220,7 +220,7 @@ footer{
         transform: scale(1);
         position: relative;
         transition: all 1s ease-in;
-      }
+}
 
 #paris:hover {
         transform: scale(1.1);
@@ -238,7 +238,7 @@ footer{
         transform: scale(1);
         position: relative;
         transition: all 1s ease-in;
-      }
+}
 
 #scotland:hover {
         transform: scale(1.1);
@@ -256,7 +256,7 @@ footer{
         transform: scale(1);
         position: relative;
         transition: all 1s ease-in;
-      }
+}
 
 #croatia:hover {
         transform: scale(1.1);
@@ -274,7 +274,7 @@ footer{
         transform: scale(1);
         position: relative;
         transition: all 1s ease-in;
-      }
+}
 
 #london:hover {
         transform: scale(1.1);
