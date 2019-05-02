@@ -130,84 +130,87 @@ footer{
 
 
 #camdenphoto{
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 80px;
 }
 
 #londoneyephoto{
-  padding-top: 35px;
-  padding-left: 80px;
-}
-
-#stonehengephoto{
+  padding-top: 40px;
   padding-left: 80px;
   padding-bottom: 10px;
 }
 
-#theatrephoto{
-  padding-top: 10px;
+#stonehengephoto{
   padding-left: 80px;
-  padding-bottom: 20px;
+  padding-top: 3px;
+}
+
+#theatrephoto{
+  padding-left: 80px;
+  padding-bottom: 10px;
 }
 
 #marcellephoto{
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 80px;
 }
 
 #louvrephoto{
-  padding-top: 70px;
+  padding-top: 20px;
   padding-left: 80px;
 }
 
 #disneyphoto{
   padding-left: 80px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 #monalisaphoto{
   padding-left: 80px;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
 #castlephoto{
-  padding-top: 10px;
   padding-left: 80px;
+  padding-top: 20px;
 }
 
 #scotlandfoodphoto{
-  padding-top: 30px;
+  padding-top: 40px;
   padding-left: 80px;
 }
 
 #scotlandstreetphoto{
-  padding-top: 10px;
+  padding-top: 15px;
   padding-left: 80px;
 }
 
 #edinburghviewphoto{
   padding-left: 80px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #greenhillsphoto{
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 80px;
 }
 
 #borderofcrotiaphoto{
   padding-left: 80px;
-  padding-top: 5px;
+  padding-top: 20px;
 }
 
 #churchphoto{
   padding-left: 80px;
+  padding-top: 5px;
 }
 
 #rocksphoto{
   padding-left: 80px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  padding-top: 5px;
 }
 
 #paris{
